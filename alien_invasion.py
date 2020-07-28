@@ -27,8 +27,6 @@ class AlienInvasion:
             self.ship.update()
             self._update_screen()
 
-            
-
     def _check_events(self):
         """Responds to keypresses and mouse events."""
         for event in pygame.event.get():
